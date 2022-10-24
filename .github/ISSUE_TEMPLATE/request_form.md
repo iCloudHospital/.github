@@ -1,25 +1,26 @@
 ---
-name: 📝 Request Form
-about: Request form for Content team
+name: 📝 Bug & Feature Request Form
+about: Bug & Request form for non-developers
 title: ""
 labels: help wanted
 assignees: ""
 ---
 
 <!--
-  안내사항
-    1. ✅ 표시가 있는 건 필수로 작성해야함.
-    2. [ ] ->> [x] = Check 상태임을 의미.
-    3. 제출 전, 상단의 Preview 탭을 확인해볼 것 (Preview에서는 CheckBox가 동작하지 않음).
+  **IMPORTANT**
+    1. ✅ indicates REQUIRED field.
+    2. Insert letter x between the brackets(without empty space) to mark the boxes. ex)[ ] ->> [x]
+    3. Before submitting you can preview the report by clicking on the Preview tab.
+       Marking the Checkboxes in the preview mode does not affect the submitted report.
 -->
 
 ### Requested by :
 
 <!-- @your name here -->
 
-## 1. 해당 항목 체크 ✅
+## 1. Please check the following boxes if applicable ✅
 
-<!-- 중복 선택 가능 -->
+<!-- you can mark multiple boxes -->
 
 - [ ] A : CloudHospital Web site
 - [ ] B : Saas Web site
@@ -29,38 +30,38 @@ assignees: ""
   - [ ] C-3 : Delete
   - [ ] C-4 : Load
 
-## 2. 요청 타입 ✅
+## 2. Request type ✅
 
-- [ ] Feature : 새 기능 추가
-- [ ] Bug : 동작 안됨
+- [ ] Feature : add a new feature
+- [ ] Bug : something doesn't work
 - [ ] Etc
 
-## 3. 링크 첨부
+## 3. Source URL
 
-- <!--
-      - Feature : 새 기능이 추가되길 바라는 페이지 링크를 입력해주세요.
-                  만약 완전히 새로운 페이지를 생성해야 한다면, 해당 항목을 삭제해주세요.
-      - Bug ✅: 문제가 발생한 페이지 링크를 입력해주세요.
+  <!--
+      - Feature : Please include the page link where you would like to add a new feature.
+
+      - Bug ✅: Please include the link where you encountered the issue.
 
       - ex) https://icloudhospital.com/articles/liver-cancer-facts-viewpoints-from-expert-doctors
     -->
 
-## 4. 상황 설명 ✅
+## 4. Additional sources ✅
 
-<!-- if possible provide screenshots and images that might help -->
+<!-- If possible provide screenshots and images that might help us -->
 
 ### Feature :
 
-- <!-- 만약 새로운 기능이 필요하다면, 여기에 현재 상황 및 필요한 이유를 간략하게 작성 -->
-- <!-- 해당되지 않는다면 ** Feature 항목 삭제 -->
+<!-- If it's a feature request, please state why it's needed -->
+<!-- Please remove this sub-section if it's not a feature request -->
 
 ### Bug :
 
-<!-- if your request is related to a problem, descibe the steps here -->
-<!-- 해당되지 않는다면 ** Bug 항목 삭제 -->
+<!-- If it's a bug report, please give us the details in this section -->
+<!-- Please remove this sub-section if it's not a bug report -->
 
-- Provide test data:
-  <!--  이 항목은 필수가 아닙니다. -->
+- Provide test data (if possible):
+  <!--  This field is NOT required. -->
   <!--  ex)  - Article Slug : liver-cancer-facts-viewpoints-from-expert-doctors -->
 
 - Steps to reproduce the behavior:
