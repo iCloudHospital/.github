@@ -1,11 +1,21 @@
 ---
 name: 🚀 Feature request
 about: Suggest an idea for this project
-title: ''
+title: ""
 labels: enhancement
-assignees: ''
-
+assignees: ""
 ---
+
+## Project Type
+
+<!-- REQUIRED -->
+<!-- for SaaS clients specify the template name ex) PS, Dental, GH -->
+
+- [ ] ICH
+- [ ] Admin
+- [ ] SaaS Client
+- [ ] Android
+- [ ] Others (please describe)
 
 ## Is your proposal related to a problem?
 
