@@ -1,11 +1,27 @@
 ---
 name: 🐞 Bug report
 about: Create a report to help us improve
-title: ''
+title: ""
 labels: bug
-assignees: ''
-
+assignees: ""
 ---
+
+## Development Stage
+
+<!-- REQUIRED -->
+
+- [ ] PRD
+- [ ] INT
+
+## Project Type
+
+<!-- REQUIRED -->
+<!-- for SaaS clients specify the template name ex) PS, Dental, GH -->
+
+- [ ] ICH
+- [ ] Admin
+- [ ] SaaS Client
+- [ ] Android
 
 ## Describe the bug
 
