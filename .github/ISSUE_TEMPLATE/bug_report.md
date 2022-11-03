@@ -6,7 +6,7 @@ labels: bug
 assignees: ""
 ---
 
-## Development Stage
+## Environment
 
 <!-- REQUIRED -->
 
@@ -18,31 +18,12 @@ assignees: ""
 <!-- REQUIRED -->
 <!-- for SaaS clients specify the template name ex) PS, Dental, GH -->
 
-- [ ] ICH
-- [ ] Admin
-- [ ] SaaS Client
-- [ ] Android
-
-## Describe the bug
-
-A clear and concise description of what the bug is.
-
-## To Reproduce
-
-Steps to reproduce the behavior:
-
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
-
-## Expected behavior
-
-A clear and concise description of what you expected to happen.
-
-## Screenshots
-
-If applicable, add screenshots to help explain your problem.
+- [ ] ICH - Website
+- [ ] ICH - Admin
+- [ ] ICH - Android
+- [ ] ICH - iOS
+- [ ] SaaS Client - Website
+- [ ] SaaS Client - Admin
 
 ## Device
 
@@ -62,6 +43,32 @@ If applicable, add screenshots to help explain your problem.
 - OS: [e.g. iOS8.1]
 - Browser [e.g. stock browser, safari]
 - Version [e.g. 22]
+
+## Figma - Design Link
+
+Add figma file link here for better understanding for the engineers, if applicable. 
+
+## Description
+
+A clear and concise description of what the bug is.
+
+## Reproduction Steps
+
+Steps to reproduce the behavior:
+
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
+
+## Expected behavior
+
+A clear and concise description of what you expected to happen.
+
+## Screenshot or ScreenRecording
+
+A clear & very short media (photo or video) of the bug has to be provided here for clear understanding.
+
 
 ## Additional context
 
