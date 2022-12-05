@@ -1,10 +1,22 @@
 ---
 name: 🚀 Feature request
-about: Suggest an idea for this project
+about: Suggest an idea for this project or Ask QA to test
 title: ""
 labels: enhancement
 assignees: ""
 ---
+
+<!-- [Option START] -->
+<!-- If you want to ask QA to test, Please remove comments from the items below -->
+<!-- And set the label to `help wanted`, `test request`. -->
+<!-- If necessary, please add information about Authority. -->
+<!--
+# 🟢 Test Request
+## Development Stage
+- [ ] INT
+- [ ] PRD
+-->
+<!-- [Option END] -->
 
 ## Project Type
 
