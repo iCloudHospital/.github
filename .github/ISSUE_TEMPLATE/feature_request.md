@@ -23,11 +23,14 @@ assignees: ""
 <!-- REQUIRED -->
 <!-- for SaaS clients specify the template name ex) PS, Dental, GH -->
 
-- [ ] ICH
-- [ ] Admin
-- [ ] SaaS Client
-- [ ] Android
+- [ ] ICH - Website
+- [ ] ICH - Admin
+- [ ] ICH - Android
+- [ ] ICH - iOS
+- [ ] SaaS Client - Website
+- [ ] SaaS Client - Admin
 - [ ] Others (please describe)
+
 
 ## Is your proposal related to a problem?
 
@@ -38,13 +41,14 @@ assignees: ""
 
 (Write your answer here.)
 
-## Describe the solution you'd like
+## Requirement - Describe the solution you'd like
 
 <!--
   Provide a clear and concise description of what you want to happen.
 -->
 
 (Describe your proposed solution here.)
+
 
 ## Describe alternatives you've considered
 
@@ -53,6 +57,14 @@ assignees: ""
 -->
 
 (Write your answer here.)
+
+
+## Figma Link
+<!--
+  Add a figma link page if the problem is already solved in terms of UX/UI
+-->
+(Add the design link here and notes if any)
+
 
 ## Additional context
 
