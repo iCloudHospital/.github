@@ -52,3 +52,7 @@ assignees: ""
 <!-- (필수) 로고 에셋이 담긴 피그마 링크를 공유해주세요 -->
 
 - Figma link for logo assets:
+
+<!-- 기타 및 추가사항이 있다면 작성해주세요 -->
+
+- Additional Information:
