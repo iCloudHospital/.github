@@ -6,49 +6,49 @@ labels: enhancement
 assignees: ""
 ---
 
-## SaaS Template Type
+## Request Form
 
-<!-- SaaS 템플릿 타입을 선택해주세요 -->
+<!-- (필수) 템플릿 타입을 선택해주세요 -->
 
-- [ ] Plastic Surgery
-- [ ] Dental
-- [ ] General Hospital
+- Template type (Plastic Surgery, Dental, General Hospital):
 
-## Prerequisites
+<!-- (필수) 병원명을 작성해주세요 -->
 
-<!-- SaaS 템플릿 생성에 필수적으로 요구되는 자료입니다 -->
+- Hospital (client) Name:
 
-<!-- 병원 로고 에셋 피그마 링크 -->
+<!-- (필수) 양식 작성일을 기입해주세요 -->
 
-- Figma link for Hospital Logo Assets:
+- Request submission date:
 
-<!-- 병원 색상코드 -->
+<!-- (필수) 양식 작성자 성함을 기입해주세요 -->
+
+- Name of submitter:
+
+<!-- 별도의 도메인을 요청했다면 작성해주세요 -->
+
+- Custom Domain Url:
+
+<!-- (필수) 요청된 기본값 언어를 작성해주세요 -->
+
+- Default locale:
+
+<!-- (필수) 기본값 제외 요청된 모든 언어들을 작성해주세요 -->
+
+- All requested locales:
+
+<!-- (필수) 병원 기본값 색상 코드 입력해주세요 -->
 
 - Primary Color Hexcode:
 
-## Custom Domain
+<!-- 병원 기타 색상 코드를 입력해주세요 -->
+<!-- 없으면 생략하셔도 됩니다 -->
 
-<!-- 커스텀 도메인 요청이 있다면 체크해주시고 요청된 URL을 작성해주세요 -->
+- Secondary Color Hexcode:
+- Neutral Color:
+- Dark Color:
+- Light Color:
+- Default Locale:
 
-- [ ] Check if custom domain is requested
-- [ ] Provide the requestd custom domain URL
+<!-- (필수) 로고 에셋이 담긴 피그마 링크를 공유해주세요 -->
 
-## Additional Information
-
-<!-- 추가적인 요청이나 코멘트가 있다면 작성해주세요 -->
-<!-- Please describe additional requests and/or comments below if it's required -->
-
-## Development Process
-
-<!-- 개발 과정을 위한 체크리스트이니 신청단계에선 비워주세요-->
-<!-- Please don't check the checkboxes unless you are in charge of the template creation task -->
-
-- [ ] All prerequisites are met
-- [ ] Hospital is registered for the Admin website
-- [ ] Hospital is registered for the IdentityServer
-- [ ] Env sheet is updated
-- [ ] Hospital website is created via SaaS Launcher
-- [ ] Azure Blob storage is created and all assets are included
-- [ ] Local Manager account is created and verified
-- [ ] External sign-in credentials are updated
-- [ ] (if custom domain is marked) CH-API CORS is updated
+- Figma link for logo assets:
