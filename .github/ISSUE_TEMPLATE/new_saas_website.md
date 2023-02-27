@@ -16,10 +16,15 @@ assignees: ""
 
 ## Prerequisites
 
-<!-- SaaS 템플릿 생성에 필요한 자료들 확인해주세요 -->
+<!-- SaaS 템플릿 생성에 필수적으로 요구되는 자료입니다 -->
 
-- [ ] Hospital Logo Assets (figma link)
-- [ ] Primary Color in hexcode
+<!-- 병원 로고 에셋 피그마 링크 -->
+
+- Figma link for Hospital Logo Assets:
+
+<!-- 병원 색상코드 -->
+
+- Primary Color Hexcode:
 
 ## Custom Domain
 
@@ -43,6 +48,7 @@ assignees: ""
 - [ ] Hospital is registered for the IdentityServer
 - [ ] Env sheet is updated
 - [ ] Hospital website is created via SaaS Launcher
+- [ ] Azure Blob storage is created and all assets are included
 - [ ] Local Manager account is created and verified
 - [ ] External sign-in credentials are updated
 - [ ] (if custom domain is marked) CH-API CORS is updated
