@@ -23,7 +23,8 @@ assignees: ""
 
 <!--
   Provide a clear and concise description of what the problem is.
-  Providing the screenshots of before & after designs will be helpful
+  * Providing the screenshots of before & after designs will be helpful
+  * If the page is already being used, providing page url will be helpful (eg: https://int.cloudhospital/hospitals/samsung-medical-center)
 -->
 
 (Write your answer here.)
