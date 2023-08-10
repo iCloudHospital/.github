@@ -12,7 +12,7 @@ Please check if your PR fulfills the following requirements:
 - [ ] My code follows the style guidelines of this project
 - [ ] I have performed a self-review of my code
 - [ ] Build (`npm run build`) was run locally
-- [ ] Mention an issue number e.g. #5379
+- [ ] Mention an issue number e.g. `#5379`
 - [ ] Docs have been reviewed and added / updated if needed
 
 <!-- 추후 테스트 코드를 작성한 이후에는 아래 항목도 주석을 제거해주세요 -->
