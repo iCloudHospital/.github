@@ -8,128 +8,29 @@ assignees: ""
 
 ---
 
-## Priority
-
-<!-- 
-  Specify the number.
-  e.g. 
-    > Votes: 6
--->
-
-> Votes: 
-
-<!-- Set a 'High Priority' label if its priority is 'High' or 'Highest'. -->
-
-- [ ] Highest
-- [ ] High
-- [ ] Medium
-- [ ] Low
-- [ ] Lowest
-
-### Module
-
-* 
-
-<!-- 
-
-Select one or provide your own.
-
-* SignUp/SignIn
-* Header
-* HomePage
-  * Banner
-  * Why Choose Us
-  * Specialities
-  * Services
-  * Before & After
-  * Testimonials
-  * Deals
-  * Doctors
-  * Articles
-  * Branches
-  * Contact
-  * Ad Banner
-* Appointment Booking Flow
-  * Consultation
-  * Deals
-  * Payments
-* Alerts & Notifications
-* Integrations - WhatsApp/SMS/Email
-* Over-All & Generic
-* Detailed Page
-  * Speciality
-  * Services
-  * Doctor
-  * Deal
-  * Article
-* Footer
-* Patient Portal
-* Doctor Portal
-* Admin Portal
-* Patient,Doctor&Admin Portals
-
---> 
-
-## Short Description
-
-
-
-## Long Description
-
-
-
 ## Clients Asked
 
-<!-- 
-  e.g. 
-  * Rex hospitals
-  * RKR Dental
-  * Megha Hospitals 
+<!-- e.g.
+
+> The number of clients inquired: 6
+
+* Rex hospitals
+* RKR Dental
+* Megha Hospitals 
+
 --> 
 
-* 
+> The number of clients asked:
 
-## CTO estimation (without interruption)
+*
 
-<!-- 
-  Todo, In progress, Done 
--->
-
-* API: 
-* Admin: 
-* Saas: 
-
-## Estimated Production Date (ETA)
-
-* 
-
-## Comments
-
-* 
-
-## Status
-
-<!--
-  * Collecting More Feedback
-  * Workflow & Design Needed
-  * Development Needed
-  * Testing Needed
-  * Prod Deployment Needed
-  * Delivered
--->
-
-- [ ] Collecting More Feedback
-- [ ] Workflow & Design Needed
-- [ ] Development Needed
-- [ ] Testing Needed
-- [ ] Prod Deployment Needed
-- [ ] Delivered
+## Description
 
 ## References
 
 <!--
   Please specify related issues and provide helpful links.
-  Add GitHub issue links here
+  Add sub-issues if the main issue can be divided into smaller tasks.
 -->
 
 * 
