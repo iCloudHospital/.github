@@ -3,7 +3,7 @@ name: 🇮🇳 [India] SaaS Market Feedback
 about: The responses concerning buyers of Software as a Service (SaaS) in the Indian market.
 title: ""
 labels: [ "feedback", "India" ]
-projects: [ "https://github.com/orgs/iCloudHospital/projects/22" ]
+projects: [ "iCloudHospital/22" ]
 assignees: ""
 
 ---
