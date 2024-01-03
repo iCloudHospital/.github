@@ -1,8 +1,8 @@
 ---
-name: [EPIC] Epic issue
+name: 🚀 Epic issue
 about: Epic issue which conatains multiple sub issues.
 title: ""
-labels: [ "EPIC" ]
+labels: EPIC
 assignees: ""
 
 ---
