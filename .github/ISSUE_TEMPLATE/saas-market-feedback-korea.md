@@ -1,6 +1,6 @@
 ---
 name: 🇰🇷 [Korea] SaaS Market Feedback
-about: The responses concerning buyers of Software as a Service (SaaS) in the Indian market.
+about: The responses concerning buyers of Software as a Service (SaaS) in the Korean market.
 title: ""
 labels: [ "feedback", "Korea" ]
 assignees: ""
