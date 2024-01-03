@@ -30,12 +30,6 @@ assignees: ""
 
 *
 
-## Sub issues(If applicable)
-<!-- e.g.
-- [ ] Sub issue 1
-- [ ] Sub issue 2
--->
-
 ## References
 
 <!--
