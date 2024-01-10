@@ -10,11 +10,20 @@ assignees: ""
   Checking this will indicate that the current issue is still draft
 -->
 
-- [x] **Draft**
+## Description
+
+<!-- !REQUIRED -->
+<!--
+  Provide a clear and concise description of what the problem is.
+  * Check the `Draft` checkbox if the issue is yet to be completed
+  * Please do not create empty issue even when issue is marked as `Draft`
+  * Remove checkbox if not needed anyamore
+-->
+
+- [ ] **Draft**
 
 ## Linked Issue
 
-<!-- !REQUIRED -->
 <!--
   Provide a link to related Issue or Pull requests
   check example for usage reference
@@ -23,13 +32,6 @@ assignees: ""
   - https://github.com/iCloudHospital/iCloudHospital/issues/1120
   - [ ] #1451
   - [ ] https://github.com/iCloudHospital/saas-next/issues/7
--->
-
-## Description
-
-<!-- !REQUIRED -->
-<!--
-  Provide a clear and concise description of what the problem is.
 -->
 
 ## Checklist
