@@ -1,8 +1,8 @@
 ---
-name: 🏥 SaaS Website Request
-about: Submit a request form for a new Saas client website
+name: 🏥 SaaS Website Update Request
+about: Submit a request form for a update Saas client website
 title: ""
-labels: enhancement
+labels: helpwanted
 assignees: ""
 ---
 
@@ -14,9 +14,11 @@ assignees: ""
 
 - [ ] SaaS properties (Primary color, Hospital Name, Template type, etc..)
 - [ ] Domain udpate
-- [ ] Etc
+- [ ] Other (Please describe on `The other` secition)
 
 ## How to update domain
+
+<!--Please fill out this section if request type is `Domain Update`-->
 
 - [ ] Domains that require purchase
 - [ ] A domain that a customer has already purchased
@@ -83,7 +85,7 @@ assignees: ""
 
 ---
 
-## Etc
+## The other
 
 <!--선택 사항 외에 업데이트해야 할 내용이 있다면 자세하게 작성 부탁드리겠습니다.-->
 <!--If there's anything else you need to update besides the options, please write in detail.-->
