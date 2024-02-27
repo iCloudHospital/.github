@@ -6,7 +6,7 @@ labels: helpwanted
 assignees: ""
 ---
 
-## What will you update?
+## Update request type
 
 <!-- 무엇을 업데이트 할 것 인지 선택해주세요 -->
 <!-- Select what you want to update -->
