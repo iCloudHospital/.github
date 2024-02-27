@@ -12,6 +12,20 @@ assignees:
 <!--만약 누구한테 이슈를 배정해야할 지 모르는 겅우 @iCloudHospital/front-end 을 이슈에 태그해주세요-->
 <!--If you don't know who to assign an issue to, please tag @iCloudHospital/front-end in the issue-->
 
+## Notice
+
+<!-- 이메일 서버 및 DNS 델리게이트 기능 여부 확인-->
+<!--Check the email server and DNS delegation functionality-->
+
+- [ ] Does your existing custom domain have an email server with it?
+
+_If the above content does not function properly, email sending and receiving capabilities may not work correctly_
+
+- Updating MX, SPF, DKIM Records in our DNS will enable their use.
+- Email reception might be disrupted for up to a day.
+- We can proceed with updates once MX, SPF, DKIM Records are provided.
+- Recommended for those familiar with DNS and domain-related knowledge.
+
 ## How to update domain
 
 <!-- (필수) 도메인 업데이트 요청 방식을 선택해주세요-->
