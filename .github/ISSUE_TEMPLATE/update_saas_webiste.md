@@ -3,8 +3,14 @@ name: 🏥 SaaS Website Update Request
 about: Submit a request form for a update Saas client website
 title: ""
 labels: helpwanted
-assignees: ""
+assignees:
 ---
+
+<!--업데이트 시, 꼭 assignees를 작성해주세요 (ex. @sejun-oh, @froggy1014)-->
+<!--When updating, be sure to include assignees (ex. @sejun-oh, @froggy1014)-->
+
+<!--만약 누구한테 이슈를 배정해야할 지 모르는 겅우 @iCloudHospital/front-end 을 이슈에 태그해주세요-->
+<!--If you don't know who to assign an issue to, please tag @iCloudHospital/front-end in the issue-->
 
 ## Update request type
 
