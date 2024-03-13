@@ -2,7 +2,7 @@
 name: 🏥 SaaS Website ENV Update Request
 about: Submit a request form for a update Saas ENV
 title: ""
-labels: helpwanted
+labels: help wanted
 assignees:
 ---
 
@@ -17,6 +17,8 @@ assignees:
 <!--업데이트가 필요한 항목만 선택 후 작성해주세요-->
 <!--Please select and complete only the items that need to be updated-->
 
+### Request Information
+
 <!-- 필수 양식 작성자 성함을 기입해주세요 -->
 <!-- (Required) Submitter name -->
 
@@ -26,6 +28,18 @@ assignees:
 <!-- (Required) Submission date -->
 
 - Request submission date:
+
+<!-- 필수 양식 도메인을 변경할 병원을 기입해주세요 -->
+<!-- (Required) Hospital Name -->
+
+- Hospital name:
+
+<!-- 필수 양식 환경변수 변경할 도메인 주소를 기입해주세요 -->
+<!-- (Required) Hospital domain -->
+
+- Hospital domain:
+
+### SaaS properties to change
 
 - [ ] Template type (Plastic Surgery, Dental, General Hospital):
 
