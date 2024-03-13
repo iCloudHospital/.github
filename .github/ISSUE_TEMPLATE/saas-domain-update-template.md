@@ -2,7 +2,7 @@
 name: 🏥 SaaS Website Domain Update Request
 about: Submit a request form for a update Saas client website domain
 title: ""
-labels: helpwanted
+labels: help wanted
 assignees:
 ---
 
@@ -46,6 +46,11 @@ _If the above content does not function properly, email sending and receiving ca
 <!-- (Required) Submission date -->
 
 - Request submission date:
+
+<!-- 필수 양식 도메인은 변경할 병원을 기입해주세요 -->
+<!-- (Required) Hospital Name -->
+
+- Hospital Name:
 
 <!-- 필수 이전 도메인을 입력해주세요 -->
 <!-- (Required) Previous Domain -->
