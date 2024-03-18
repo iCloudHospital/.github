@@ -6,12 +6,20 @@ labels: enhancement
 assignees: ""
 ---
 
+<!--이슈 생성 시, 지역 태그(india, default)를 설정해주세요-->
+<!--Note that please select region tag(india, default) when you create the SaaS request issue-->
+
 ## Request Form
 
 <!-- (필수) 템플릿 타입을 선택해주세요 -->
 <!-- REQUIRED - Choose template type -->
 
 - Template type (Plastic Surgery, Dental, General Hospital):
+
+<!-- (필수) 지역을 선택해 주세요 (inida, default) -->
+<!-- REQUIRED - Choose regin(india, default) -->
+
+- Region (india, default):
 
 <!-- (필수) 병원명을 작성해주세요 -->
 <!-- REQUIRED - Hospital name -->
