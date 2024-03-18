@@ -32,6 +32,13 @@ _If the above content does not function properly, email sending and receiving ca
 - We can proceed with updates once MX, SPF, DKIM Records are provided.
 - Recommended for those familiar with DNS and domain-related knowledge.
 
+### Note
+
+- We do not recommend that you bind to customers' existing domains.
+- We have to manually merge the customer's bind into ours.
+- The above operations can take up to a week or more.
+- We recommend buying a domain, unless changing a customer's domain to yours is an absolutely necessary task.
+
 ## How to update domain
 
 <!-- (필수) 도메인 업데이트 요청 방식을 선택해주세요-->
