@@ -2,7 +2,7 @@
 name: 🏥 SaaS Website ENV Update Request
 about: Submit a request form for a update Saas ENV
 title: ""
-labels: help wanted
+labels: ["help wanted", "Update SaaS Properties"]
 assignees:
 ---
 
@@ -11,6 +11,9 @@ assignees:
 
 <!--만약 누구한테 이슈를 배정해야할 지 모르는 겅우 @iCloudHospital/front-end 을 이슈에 태그해주세요-->
 <!--If you don't know who to assign an issue to, please tag @iCloudHospital/front-end in the issue-->
+
+<!--이슈 생성 시, 지역 태그(india, default)를 설정해주세요-->
+<!--Note that please select region tag(india, default) when you create the SaaS request issue-->
 
 ## Update Environment Request Form
 
@@ -28,6 +31,11 @@ assignees:
 <!-- (Required) Submission date -->
 
 - Request submission date:
+
+<!-- (필수) 지역을 선택해 주세요 (inida, default) -->
+<!-- REQUIRED - Choose regin(india, default) -->
+
+- Region (india, default):
 
 <!-- 필수 양식 도메인을 변경할 병원을 기입해주세요 -->
 <!-- (Required) Hospital Name -->

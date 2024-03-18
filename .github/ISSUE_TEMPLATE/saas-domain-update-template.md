@@ -12,6 +12,12 @@ assignees:
 <!--만약 누구한테 이슈를 배정해야할 지 모르는 겅우 @iCloudHospital/front-end 을 이슈에 태그해주세요-->
 <!--If you don't know who to assign an issue to, please tag @iCloudHospital/front-end in the issue-->
 
+<!--이슈 생성 시, 지역 태그(india, default)를 설정해주세요-->
+<!--Note that please select region tag(india, default) when you create the SaaS request issue-->
+
+<!--이슈 생성 시, 도메인 변경 관련 태그를 선택해 주세요('Customer's Domain Binding', 'Domain Purchase') -->
+<!--When creating an issue, please select the relevant tags for the domain change ('Customer's Domain Binding', 'Domain Purchase')-->
+
 ## Notice
 
 <!-- 이메일 서버 및 DNS 델리게이트 기능 여부 확인-->
@@ -25,6 +31,13 @@ _If the above content does not function properly, email sending and receiving ca
 - Email reception might be disrupted for up to a day.
 - We can proceed with updates once MX, SPF, DKIM Records are provided.
 - Recommended for those familiar with DNS and domain-related knowledge.
+
+### Note
+
+- We do not recommend that you bind to customers' existing domains.
+- We have to manually merge the customer's bind into ours.
+- The above operations can take up to a week or more.
+- We recommend buying a domain, unless changing a customer's domain to yours is an absolutely necessary task.
 
 ## How to update domain
 
@@ -46,6 +59,11 @@ _If the above content does not function properly, email sending and receiving ca
 <!-- (Required) Submission date -->
 
 - Request submission date:
+
+<!-- (필수) 지역을 선택해 주세요 (inida, default) -->
+<!-- REQUIRED - Choose regin(india, default) -->
+
+- Region (india, default):
 
 <!-- 필수 양식 도메인은 변경할 병원을 기입해주세요 -->
 <!-- (Required) Hospital Name -->
