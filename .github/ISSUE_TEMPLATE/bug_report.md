@@ -6,11 +6,25 @@ labels: bug
 assignees: ""
 ---
 
+## Requested By
+
+<!--
+example:
+- Name: Tester Name
+- Email: tester.email@icloudhospital.com
+- Team: Contents Team | Marketing Team Team |
+-->
+
+- Name:
+- Email:
+- Team
+
 ## Environment
 
 <!-- REQUIRED -->
 
 - [ ] PRD
+- [ ] STG
 - [ ] INT
 
 ## Project Type
@@ -20,8 +34,9 @@ assignees: ""
 
 - [ ] ICH - Website
 - [ ] ICH - Admin
-- [ ] ICH - Android
-- [ ] ICH - iOS
+- [ ] B2B - tech.icloudhospital.com
+  <!-- - [ ] ICH - Android -->
+  <!-- - [ ] ICH - iOS -->
 - [ ] SaaS Client - Website
 - [ ] SaaS Client - Admin
 
@@ -46,7 +61,7 @@ assignees: ""
 
 ## Figma - Design Link
 
-Add figma file link here for better understanding for the engineers, if applicable. 
+Add figma file link here for better understanding for the engineers, if applicable.
 
 ## Description
 
@@ -68,7 +83,6 @@ A clear and concise description of what you expected to happen.
 ## Screenshot or ScreenRecording
 
 A clear & very short media (photo or video) of the bug has to be provided here for clear understanding.
-
 
 ## Additional context
 
