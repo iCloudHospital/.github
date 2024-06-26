@@ -6,12 +6,20 @@ labels: enhancement
 assignees: ""
 ---
 
+<!--이슈 생성 시, 지역 태그(india, default)라벨을 설정해주세요-->
+<!--Note that please When creating an issue, please set the region tag (india, default) label-->
+
 ## Request Form
 
 <!-- (필수) 템플릿 타입을 선택해주세요 -->
 <!-- REQUIRED - Choose template type -->
 
 - Template type (Plastic Surgery, Dental, General Hospital):
+
+<!-- (필수) 지역을 선택해 주세요 (inida, default), 이슈 라벨을 꼭 선택해주세요 -->
+<!-- REQUIRED - Choose region(india, default), be sure to choose an issue label -->
+
+- Region (india, default):
 
 <!-- (필수) 병원명을 작성해주세요 -->
 <!-- REQUIRED - Hospital name -->
