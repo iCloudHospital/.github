@@ -1,4 +1,3 @@
-
 name: 🐛 Bug Report
 description: File a bug report.
 title: "[Bug]: "
@@ -16,52 +15,52 @@ body:
     validations:
       required: true
   - type: input
-    id: resquseted_by_email
+    id: requested_by_email
     attributes:
-      label: Requested By
+      label: Requested By Email
       placeholder: ex. email@example.com
     validations:
       required: true
   - type: dropdown
     id: team
     attributes:
-      label: Tea,
+      label: Team
       multiple: false
       options:
         - Marketing
         - Contents
-        - Design 
+        - Design
         - QA
         - Sales
     validations:
       required: true
   - type: checkboxes
     id: stage
-    attrubutes:
+    attributes:
       label: Stage
-      description: Check states where you are having this issue
-      options: 
-        label: INT
-        label: STG
-        label: PRD
+      description: Check stages where you are having this issue
+      options:
+        - label: INT
+        - label: STG
+        - label: PRD
   - type: checkboxes
     id: project
-    attrubutes:
+    attributes:
       label: Projects
-      description: Check states where you are having this issue
-      options: 
-        label: ICH - Website
-        label: ICH - Admin
-        label: B2B - tech.icloudhospital.comn
-        label: SaaS Client - Website
-        label: SaaS Client - Admin
+      description: Check projects where you are having this issue
+      options:
+        - label: ICH - Website
+        - label: ICH - Admin
+        - label: B2B - tech.icloudhospital.com
+        - label: SaaS Client - Website
+        - label: SaaS Client - Admin
   - type: dropdown
     id: device
     attributes:
       label: What device are you seeing the problem on?
       multiple: true
       options:
-        - Iphone (IOS)
+        - iPhone (iOS)
         - Android (AOS)
         - Windows OS
         - Mac OS
@@ -78,7 +77,7 @@ body:
     id: os_browser_version
     attributes:
       label: OS | Browser Version
-      placeholder: ex. IOS 17.1
+      placeholder: ex. iOS 17.1
   - type: textarea
     id: description
     attributes:
@@ -98,4 +97,3 @@ body:
         2. Click on '....'
         3. Scroll down to '....'
         4. See error
-

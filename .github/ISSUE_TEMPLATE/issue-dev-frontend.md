@@ -1,5 +1,5 @@
 ---
-name: 💻 Fronted dev team internal issue template
+name: 💻 Fronted dev team internal issue
 about: Internal issue template for Frontend dev team
 title: ""
 labels: ""
@@ -7,23 +7,14 @@ assignees: ""
 ---
 
 <!--
-  Checking this will indicate that the current issue is still draft
+  Checking this will indicate that the current issue is stil draft
 -->
 
-## Description
-
-<!-- !REQUIRED -->
-<!--
-  Provide a clear and concise description of what the problem is.
-  * Check the `Draft` checkbox if the issue is yet to be completed
-  * Please do not create empty issue even when issue is marked as `Draft`
-  * Remove checkbox if not needed anyamore
--->
-
-- [ ] **Draft**
+- [x] **Draft**
 
 ## Linked Issue
 
+<!-- !REQUIRED -->
 <!--
   Provide a link to related Issue or Pull requests
   check example for usage reference
@@ -34,10 +25,17 @@ assignees: ""
   - [ ] https://github.com/iCloudHospital/saas-next/issues/7
 -->
 
+## Description
+
+<!-- !REQUIRED -->
+<!--
+  Provide a clear and concise description of what the problem is.
+-->
+
 ## Checklist
 
 <!--
-  If the issue requires multiple steps or multiple tasks Provide a checklist
+  If the issue requires multiple steps or multiple taskts Provide a checklist
 -->
 
 ## Additional context
