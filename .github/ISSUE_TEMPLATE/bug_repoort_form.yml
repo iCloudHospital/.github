@@ -1,26 +1,54 @@
 name: 🐛 Bug Report
 description: File a bug report.
-title: "[Bug]: "
+title: "[Bug Report]: "  # Default title based on selection
 labels: ["bug", "help wanted"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this report!
+  
+  - type: checkboxes
+    id: report_type
+    attributes:
+      label: Report Type (Title)
+      description: Select the type of report. The title will be updated based on your selection.
+      options:
+        - label: 🐛 Bug Report
+          default: true  # Default selection
+        - label: 📝 Custom Issue
+        - label: 🌟 Feature Request
+
+  - type: checkboxes
+    id: labels
+    attributes:
+      label: Labels
+      description: Select all applicable labels for this issue.
+      options:
+        - label: bug
+          default: true  # Default selection
+        - label: help wanted
+        - label: enhancement
+        - label: question
+
   - type: input
     id: requested_by_name
     attributes:
       label: Requested By
       placeholder: ex. Tester Name
+      value: "${{ github.actor }}" # Auto-filled with GitHub username
     validations:
       required: true
+
   - type: input
     id: requested_by_email
     attributes:
       label: Requested By Email
       placeholder: ex. email@example.com
+      value: "${{ github.actor }}@users.noreply.github.com" # Auto-filled with GitHub's default email format
     validations:
       required: true
+
   - type: dropdown
     id: team
     attributes:
@@ -32,8 +60,10 @@ body:
         - Design
         - QA
         - Sales
+      default: 3  # Default to "QA"
     validations:
       required: true
+
   - type: checkboxes
     id: stage
     attributes:
@@ -41,8 +71,10 @@ body:
       description: Check stages where you are having this issue
       options:
         - label: INT
+          default: true  # Default to INT
         - label: STG
         - label: PRD
+
   - type: checkboxes
     id: project
     attributes:
@@ -50,10 +82,12 @@ body:
       description: Check projects where you are having this issue
       options:
         - label: ICH - Website
+          default: true  # Default project
         - label: ICH - Admin
         - label: B2B - tech.icloudhospital.com
         - label: SaaS Client - Website
         - label: SaaS Client - Admin
+
   - type: dropdown
     id: device
     attributes:
@@ -64,6 +98,8 @@ body:
         - Android (AOS)
         - Windows OS
         - Mac OS
+      default: 2  # Default to "Windows OS"
+
   - type: dropdown
     id: browsers
     attributes:
@@ -73,19 +109,25 @@ body:
         - Firefox
         - Chrome
         - Safari
+      default: 1  # Default to "Chrome"
+
   - type: input
     id: os_browser_version
     attributes:
       label: OS | Browser Version
       placeholder: ex. iOS 17.1
+      value: "Windows 11 | Chrome 120"  # Default version
+
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: A clear and concise description of what the bug is.
+      description: A clear and concise description of what the issue is.
       placeholder: Tell us what happened
+      value: "A bug occurred while performing an action."
     validations:
       required: true
+
   - type: textarea
     id: reproduction_steps
     attributes:
@@ -93,7 +135,7 @@ body:
       description: Steps to reproduce the behavior
       placeholder: Tell us what happened
       value: |
-        1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
+        1. Go to 'example.com'
+        2. Click on 'Submit'
+        3. Scroll down to 'Results'
         4. See error
