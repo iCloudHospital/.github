@@ -1,0 +1,24 @@
+name: Test Slack Webhook
+
+on:
+  workflow_dispatch:
+    inputs:
+      message:
+        description: 'Custom message to send to Slack'
+        required: false
+        default: 'This is a test message from GitHub Actions'
+        type: string
+
+jobs:
+  test-slack:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send test message to Slack
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_CHANNEL: "admin-fe"
+          SLACK_USERNAME: "GitHub Actions Test"
+          SLACK_TITLE: "🧪 Slack Webhook Test"
+          SLACK_MESSAGE: ${{ inputs.message }}
+          SLACK_COLOR: good
