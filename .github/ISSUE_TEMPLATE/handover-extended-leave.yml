@@ -1,4 +1,4 @@
-name: "✈️ [Project/Service] Handover for Extended Leave"
+name: "✈️ Handover for Extended Leave"
 description: One-page handover document to ensure smooth coverage during absence
 title: "[Handover] <Project/Service Name>"
 labels: ["handover", "documentation"]
@@ -38,7 +38,7 @@ body:
     attributes:
       label: "Service Overview"
       description: "Summarize purpose, current status, and key dependencies in ≤5 lines."
-      value: |
+      placeholder: |
         This service provides ___ for ___ and is currently in the ___ stage.  
         It runs in ___ and depends on ___, ___.
   - type: input
@@ -91,11 +91,11 @@ body:
     attributes:
       label: "Frequently Used Links"
       description: "Add repos, dashboards, runbooks, etc."
-      value: |
-        - Code repo:  
-        - Monitoring dashboard:  
-        - CI/CD pipeline:  
-        - Runbook:  
+      placeholder: |
+        - Code repo: [repo link] 🧩  
+        - Monitoring dashboard: [link] 📈  
+        - CI/CD pipeline: [link] ⚙️  
+        - Runbook: [link] 📘
 
   - type: markdown
     attributes:
