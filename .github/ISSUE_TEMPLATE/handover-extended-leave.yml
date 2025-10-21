@@ -1,4 +1,4 @@
-name: "✈️ [Project/Service] Handover for Extended Leave "
+name: "✈️ [Project/Service] Handover for Extended Leave"
 description: One-page handover document to ensure smooth coverage during absence
 title: "[Handover] <Project/Service Name>"
 labels: ["handover", "documentation"]
@@ -21,7 +21,7 @@ body:
     attributes:
       label: "Owner / Backup / Contact Details"
       description: "Provide primary owner and backup contact info (Slack, phone, etc.)"
-      placeholder: |
+      value: |
         | Role | Name/Handle | Contact |
         |---|---|---|
         | Owner | @owner | Slack: #channel / Phone: +82-10-XXXX-XXXX |
@@ -38,7 +38,7 @@ body:
     attributes:
       label: "Service Overview"
       description: "Summarize purpose, current status, and key dependencies in ≤5 lines."
-      placeholder: |
+      value: |
         This service provides ___ for ___ and is currently in the ___ stage.  
         It runs in ___ and depends on ___, ___.
   - type: input
@@ -64,7 +64,7 @@ body:
     attributes:
       label: "Key Issues / PRs"
       description: "List related issues or pull requests with context and URLs."
-      placeholder: |
+      value: |
         | Title | Context | Reference |
         |---|---|---|
         | Keep cache TTL at 10 minutes | Prevent call spikes during traffic bursts | [#1234](https://github.com/org/repo/issues/1234) |
@@ -77,7 +77,7 @@ body:
     attributes:
       label: "Known Risks or Common Incidents"
       description: "List key symptoms/alerts and immediate actions."
-      placeholder: |
+      value: |
         | Symptom/Alert | Immediate Action |
         |---|---|
         | p95 latency > 2s | ① Roll back to last stable revision ② Verify cache flush |
@@ -91,7 +91,7 @@ body:
     attributes:
       label: "Frequently Used Links"
       description: "Add repos, dashboards, runbooks, etc."
-      placeholder: |
+      value: |
         - Code repo: [repo link] 🧩  
         - Monitoring dashboard: [link] 📈  
         - CI/CD pipeline: [link] ⚙️  
