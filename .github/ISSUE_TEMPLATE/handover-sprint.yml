@@ -1,0 +1,60 @@
+name: "🗂️ Handover for Leave on Sprint Day"
+description: "One-page handover doc to ensure smooth sprint coverage during absence"
+title: "[Handover] <Project/Service Name>"
+labels: ["handover", "documentation"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # [Project/Service Name] — Handover docs for Leave on the Sprint day :card_index_dividers:
+
+        <!--
+        Authoring guide
+        - Keep it to one page max
+        - Prefer links to official docs/dashboards/repos
+        - Do NOT include secrets; reference their storage location only
+        -->
+
+  - type: markdown
+    attributes:
+      value: "## 1) Summary (Product/Tech Overview) :compass:"
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Summary"
+      description: "Summarize purpose, current status, and key dependencies in ≤5 lines."
+      value: |
+        This service provides ___ for ___ and is currently in the ___ stage.  
+        It runs in ___ and depends on ___, ___.
+  - type: input
+    id: prd
+    attributes:
+      label: "PRD Link"
+      description: "Link to the product requirements document"
+      placeholder: "https://..."
+
+  - type: markdown
+    attributes:
+      value: "---\n## 2) Link Hub (Free-form) :link:"
+  - type: textarea
+    id: link_hub
+    attributes:
+      label: "Frequently Used Links"
+      description: "Add repos, dashboards, runbooks, etc. (free-form list)"
+      value: |
+        - Code repo:  
+        - Monitoring dashboard:  
+        <!-- Add as needed: deploy/rollback runbook, CI/CD, API docs, access requests, etc. -->
+
+  - type: markdown
+    attributes:
+      value: "---\n## (Optional) Pre-Leave Checklist :white_check_mark:"
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Pre-Leave Tasks"
+      options:
+        - label: ""
+        - label: ""
+      description: "Add as many checkboxes as needed for your pre-leave checklist."
