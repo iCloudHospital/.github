@@ -1,0 +1,111 @@
+name: "✈️ [Project/Service] Handover for Extended Leave "
+description: One-page handover document to ensure smooth coverage during absence
+title: "[Handover] <Project/Service Name>"
+labels: ["handover", "documentation"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # ✈️ Handover for Extended Leave
+
+        Please complete this one-pager **before your leave**.  
+        Keep it concise (1 page max).  
+        **Never include secrets** – link to their secure storage location instead.
+
+  - type: markdown
+    attributes:
+      value: "## 👥 1) Owner / Backup / Contacts"
+  - type: textarea
+    id: contacts
+    attributes:
+      label: "Owner / Backup / Contact Details"
+      description: "Provide primary owner and backup contact info (Slack, phone, etc.)"
+      placeholder: |
+        | Role | Name/Handle | Contact |
+        |---|---|---|
+        | Owner | @owner | Slack: #channel / Phone: +82-10-XXXX-XXXX |
+        | Backup | @backup | Slack DM / Phone: +82-10-XXXX-XXXX |
+
+        > Decision path: **Owner → Backup**.  
+        > Security/access issues → IT Helpdesk.
+
+  - type: markdown
+    attributes:
+      value: "## 🧭 2) Summary (Product/Tech Overview)"
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Service Overview"
+      description: "Summarize purpose, current status, and key dependencies in ≤5 lines."
+      placeholder: |
+        This service provides ___ for ___ and is currently in the ___ stage.  
+        It runs in ___ and depends on ___, ___.
+  - type: input
+    id: prd
+    attributes:
+      label: "PRD Link"
+      description: "Link to the product requirements document"
+      placeholder: "https://..."
+    validations:
+      required: false
+  - type: input
+    id: diagram
+    attributes:
+      label: "Representative Diagram"
+      description: "Architecture or flow diagram link"
+      placeholder: "https://..."
+
+  - type: markdown
+    attributes:
+      value: "## 📝 3) Linked Issue or Pull Request"
+  - type: textarea
+    id: issues_prs
+    attributes:
+      label: "Key Issues / PRs"
+      description: "List related issues or pull requests with context and URLs."
+      placeholder: |
+        | Title | Context | Reference |
+        |---|---|---|
+        | Keep cache TTL at 10 minutes | Prevent call spikes during traffic bursts | [#1234](https://github.com/org/repo/issues/1234) |
+
+  - type: markdown
+    attributes:
+      value: "## ⚠️ 4) Potential Incidents"
+  - type: textarea
+    id: incidents
+    attributes:
+      label: "Known Risks or Common Incidents"
+      description: "List key symptoms/alerts and immediate actions."
+      placeholder: |
+        | Symptom/Alert | Immediate Action |
+        |---|---|
+        | p95 latency > 2s | ① Roll back to last stable revision ② Verify cache flush |
+        | Error rate > 1% | ① Check error logs ② Revert recent PR |
+
+  - type: markdown
+    attributes:
+      value: "## 🔗 5) Link Hub"
+  - type: textarea
+    id: links
+    attributes:
+      label: "Frequently Used Links"
+      description: "Add repos, dashboards, runbooks, etc."
+      placeholder: |
+        - Code repo: [repo link] 🧩  
+        - Monitoring dashboard: [link] 📈  
+        - CI/CD pipeline: [link] ⚙️  
+        - Runbook: [link] 📘
+
+  - type: markdown
+    attributes:
+      value: "## ✅ (Optional) Pre-Leave Checklist"
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Pre-Leave Tasks"
+      options:
+        - label: "Backup confirmed and briefed"
+        - label: "Access verified (no blockers)"
+        - label: "Critical alerts reviewed"
+        - label: "Docs and dashboards updated"
